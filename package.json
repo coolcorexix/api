@@ -28,7 +28,8 @@
     "postinstall": "polkadot-dev-yarn-only",
     "test": "polkadot-dev-run-test --coverage --forceExit --runInBand --testPathIgnorePatterns e2e",
     "test:one": "polkadot-dev-run-test --detectOpenHandles --forceExit",
-    "test:watch": "polkadot-dev-run-test --watch"
+    "test:watch": "polkadot-dev-run-test --watch",
+    "trouble-shoot": "yarn workspace @polkadot/troubleshoot"
   },
   "devDependencies": {
     "@babel/core": "^7.17.3",
@@ -37,7 +38,8 @@
     "@polkadot/dev": "^0.65.59",
     "@polkadot/typegen": "workspace:packages/typegen",
     "@types/jest": "^27.4.0",
-    "copyfiles": "^2.4.1"
+    "copyfiles": "^2.4.1",
+    "ts-node": "^10.5.0"
   },
   "resolutions": {
     "typescript": "^4.5.5"
